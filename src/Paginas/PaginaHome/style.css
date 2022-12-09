@@ -143,6 +143,13 @@
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
+    transition: all .5s;
+    border: 5px solid transparent;
+}
+
+.lista-depoimentos img:hover {
+    border: 5px solid #136497;
+    border-radius: 50%;
 }
 
 .btn-contato {
