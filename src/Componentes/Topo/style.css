@@ -1,0 +1,41 @@
+header {
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    background-color: #1B3675;
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 16px 0;
+}
+
+.logo-titulo {
+    display: flex;
+    align-items: center;
+}
+
+.link, .link-nav {
+    text-decoration: none;
+}
+
+.link-nav {
+    color: #FFF;
+    font-size: 1.2rem;
+    margin: 0 10px;
+}
+
+.link-nav:hover {
+    border-bottom:1px solid #FFF;
+}
+
+.titulo-topo {
+    color: #FFF;
+    font-size: 1.5rem;
+    padding-left: 8px;
+    text-decoration: none;
+}

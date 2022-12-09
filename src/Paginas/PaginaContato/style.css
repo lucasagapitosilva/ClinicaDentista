@@ -1,0 +1,62 @@
+.contato-container {
+    padding-top: 60px;
+}
+
+.lista-medicos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.lista-medicos li {
+    list-style: none;
+    max-width: 300px;
+    padding: 10px 20px;
+}
+
+.lista-medicos li img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: all .5s;
+    border: 5px solid transparent;
+}
+
+.lista-medicos li img:hover {
+    border: 5px solid #136497;
+    border-radius: 50%;
+}
+
+.titulo-sessao {
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    padding: 0 15px;
+}
+
+.center {
+    text-align: center;
+}
+
+.center {
+    margin: 20px 0;
+}
+
+.contato-container p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+iframe {
+    border: 0;
+}
+
+@media (max-width: 425px) {
+
+    .contato-container p {
+        font-size: 1rem;
+    }
+}
